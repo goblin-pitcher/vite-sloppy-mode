@@ -30,3 +30,26 @@ function f() {
 }
 ```
 
+
+
+### 用法
+
+```typescript
+import { defineConfig } from "vite";
+import viteSloppyMode from "vite-sloppy-mode";
+
+const config = defineConfig({
+  plugins: [
+    viteSloppyMode({
+      // 假设只针对node_modules下的xxx库
+      // include、exclude传入格式为: RegExp[]
+      include: [/node_modules(.+?)xxx/],
+      exclude: []
+    })
+  ]
+})
+
+export default config;
+
+```
+

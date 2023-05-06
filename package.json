@@ -1,6 +1,6 @@
 {
   "name": "vite-sloppy-mode",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Compatible with sloppy mode",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
