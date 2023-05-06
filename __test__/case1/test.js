@@ -1,6 +1,5 @@
 import { glob } from "glob"
 
-var b, c;
 var a;
 a = 7;
 b = 9;
